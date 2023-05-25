@@ -1,0 +1,17 @@
+{
+  "name": "csv-converter",
+  "version": "1.0.0",
+  "description": "Converts CSV into JSON, with csvtojson converter. Add with npm install -g csv-converter to local environment.",
+  "main": "index.js",
+  "bin": {
+    "script_csvtojson": "./script_csvtojson.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Kevin Carter, deveca.dev",
+  "license": "ISC",
+  "dependencies": {
+    "csvtojson": "^2.0.10"
+  }
+}
